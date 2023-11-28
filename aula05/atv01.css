@@ -1,0 +1,30 @@
+.box{
+    height: 670px;
+    display: grid;
+    grid-template-areas: "c1 c1 c1"
+                         "l1 c2 l2" ;
+    grid-template-rows: 120px 1fr ;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+.l1{
+    background-color: lightcoral;
+    grid-area: l1;
+}
+
+.l2{
+    background-color: lightcoral;
+    grid-area: l2;
+}
+
+.c1{
+    background-color: lightseagreen;
+    grid-area: c1;
+}
+
+.c2{
+    background-color: rgb(219, 219, 238);
+    grid-area: c2;
+}
+
+
