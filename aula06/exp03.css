@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(112, 112, 240);
+}
+
+.box{
+    background-color: lightblue;
+    display: grid;
+    font-size: 60px;
+    text-align: center;
+    border: 3px solid black;
+    width: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 580px;
+
+    grid-template-areas: "p1 p2 p3"
+                         "p4 p5 p6" 
+                         "p7 p8 p9";
+}
+
+.p1{
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.p2{
+    border: 2px solid black;
+    
+}
+
+.p3{
+    border: 2px solid black;
+    
+}
+
+.p4{
+    border: 2px solid black;
+    
+}
+
+.p5{
+    border: 2px solid black;
+    
+}
+
+.p6{
+    border: 2px solid black;
+    
+}
+
+.p7{
+    border: 2px solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}

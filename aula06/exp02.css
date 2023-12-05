@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(112, 112, 240);
+}
+
+.box{
+    display: grid;
+    font-size: 60px;
+    text-align: center;
+    border: 3px solid black;
+    width: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 580px;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.p1{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p1;
+    padding-top: 65px;
+}
+
+.p2{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p2;
+    padding-top: 65px;
+}
+
+.p3{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p3;
+    padding-top: 65px;
+}
+
+.p4{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p4;
+    padding-top: 65px;
+}
+
+.p5{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p5;
+    padding-top: 65px;
+}
+
+.p6{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p6;
+    padding-top: 65px;
+}
+
+.p7{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p7;
+    padding-top: 65px;
+}
+
+.p8{
+    border: 2px solid black;
+    grid-area: p8;
+    background-color: lightblue;
+    padding-top: 65px;
+}
+
+.p9{
+    border: 2px solid black;
+    background-color: lightblue;
+    grid-area: p9;
+    padding-top: 65px;
+}
